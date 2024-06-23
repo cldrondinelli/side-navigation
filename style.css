@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(30,30,30);
+    border-radius: 15px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.brand-container{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: verdana;
+}
+
+.brand-title{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.link{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin:10px 0;
+    font-family: verdana;
+    transition: 0.2s;
+}
+
+.link:hover{
+    background-color: white;
+    color:rgb(30,30,30);
+}
+
+.profile-container{
+    color: white;
+    font-family: verdana;
+    margin: 0;
+    padding:15px;
+    position: absolute;
+    bottom: 0;
+}
